@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>text-shadow와 box-shadow</title>
+    <style>
+        .shadow{
+            color:yellow;
+            text-shadow: 2px 1px 3px blue;
+            text-align: center;
+        }
+
+        img{
+            width:150px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        img:hover{
+            box-shadow: 0px 0px 4px gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shadow">
+        <h2>Most Visited Pages</h2>
+    </div>
+    <hr>
+    <div class="naver">
+        <a href="http://www.naver.com/">
+            <img
+                src="https://lh3.googleusercontent.com/Kbu0747Cx3rpzHcSbtM1zDriGFG74zVbtkPmVnOKpmLCS59l7IuKD5M3MKbaq_nEaZM=s180-rw">
+        </a>
+    </div>
+    <div class="daum">
+        <a href="https://www.daum.net/">
+            <img src="https://lh3.googleusercontent.com/mPRYBthturDNupdmJOIQaUYreTopTQZGvoPbVjsx0KymIsb0K1wRyyjLfP--LsEpgg">
+        </a>
+    </div>
+    <div class="google">
+        <a href="https://www.google.co.kr/">
+            <img
+                src="https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/5rH/image/LHUiJV1nog0BqnOJ8Mtj5UbNTjQ">
+        </a>
+    </div>
+</body>
+</html>

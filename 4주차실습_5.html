@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>:hover 활용</title>
+    <style>
+        .swap img:last-child{display:none}
+        .swap:hover img:first-child{display:none}
+        .swap:hover img:last-child{display:inline-block}
+        .swap {
+            float:left;
+        }
+        .text{
+            float:left;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>:hover 활용</h3>    
+    <hr>
+    <div class="text">마우스를 올리면 카드의 앞면이 보인다.</div>
+    <div class="swap">
+        <img width="100" src="http://blogfiles.naver.net/MjAxODA2MDhfMjkx/MDAxNTI4NDU0NjY1NzQ2._Sp0iHBtmFGFrm2R2JaSOnGwL5n6sT_Y_tu3h7JTBo0g.k-BxgHJ5GBsOdssD7qDQ-6duuH2k_bLh2GJWB5Mte5Mg.PNG.rrensiart/%C6%AE%B7%B3%C7%C1%C4%AB%B5%E51.png">
+        <img width="100" src="https://i.pinimg.com/originals/12/f7/a4/12f7a4211bbbbae45ffa90de88e20b40.png">
+    </div>
+</body>
+</html>
